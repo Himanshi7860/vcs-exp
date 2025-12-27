@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>KeyFrame Animation</title>
+    <style>
+        .loader{
+            height: 50px;
+            width:50px;m
+            background-color: blueviolet;
+            animation: pulse 3s infinite;
+        }
+
+        @keyframes pulse {
+            0% {tarnsform: scale(1); border-radius: 0px; }
+            50% {transform: scale(1.5); border-radius: 100px; }
+            100% {tarnsform: scale(1);border-radius: 0px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="loader"></div>
+</body>
+</html>

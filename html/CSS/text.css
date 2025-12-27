@@ -1,0 +1,26 @@
+
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.indent {
+     text-indent:5%;
+
+}
+
+.letterspacing {
+    letter-spacing: 5px;      
+}
+
+.lineHeight {
+    line-height: 5;
+}

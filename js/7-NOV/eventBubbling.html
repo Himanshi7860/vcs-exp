@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <div id="parent">
+        <button id="child">Click Me!</button>
+    </div>
+
+    <script>
+        const parentDiv = document.getElementById('parent');
+          const childBtn = document.getElementById('child');
+
+          parentDiv.addEvenetListener('click', () => {
+            console.log("parent Div has been clicked!")
+          });
+
+          childBtn.addEventListener('click',() => {
+            console.log("Child btn has been clicked!")
+          });
+    </script>
+</body>
+</html>

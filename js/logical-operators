@@ -1,0 +1,21 @@
+let marks = 70;
+
+// <33 -> fail
+// 33 - 50 -> c
+// 51 - 90 -> B
+// 91 - 100 -> A
+
+if(marks < 33){
+    console.log("oops failed!");
+}
+else if(marks <= 50){
+    console.log("C grade!");
+}
+else if(marks <=70) {
+    console.log("B Grade!");
+}
+else if(marks <= 90){
+    console.log("A Grade!");
+} else{
+    console.log("A Grade!");
+}

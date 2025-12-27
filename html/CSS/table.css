@@ -1,0 +1,25 @@
+.simpleBorder {
+     border : 2px solid black;
+}
+
+td {
+    border: 2px dashed blue;
+}
+
+th {
+    border: 3px double red;
+}
+
+table {
+   border-collapse: separate;
+}
+
+td, th, table {
+    border: 2px solid black;
+     border-spacing: 20px 5px;     /*horizontal,vertical */
+}
+
+#rahulTd {
+    padding: 20px;
+}
+

@@ -1,0 +1,12 @@
+
+
+
+button::active {
+    background-color: darkblue;
+    color:aliceblue;
+}
+
+a::active {
+    color: rgb(202, 200, 52);
+}
+

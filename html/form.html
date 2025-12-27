@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <div>
+          <label>First Name</label>
+          <input type="text" placeholder="Firstname">
+        </div>
+
+        <div>
+           <label>Last Name</label>
+           <input type="text" placeholder="lastname">
+        </div>
+
+        <div>
+            <label>Age</label>
+            <input type="number" min="1" max="100" step="2">
+        </div>
+        
+        <div>
+            <label>Address</label>
+            <input type="address" min="1" max="100" >
+            
+        </div> 
+
+        <div>
+            <label>Password</label>
+            <input type="password">
+        </div>
+
+        <div>
+            <label for="" >Gender ></label>
+            <input type="radio" value="male" name="Gender"> Male
+            <input type="radio" value="female" name="Gender"> Female
+            <input type="radio" value="do not want to specify" name="Gender">NA
+         </div>
+
+         <div>
+            <label for="newLetterConfirmation">Subscribe</label>
+            <input type="Checkbox" id="newLetterConfirmation" name="newsletter" value="yes">
+         </div>
+
+         <textarea name="bio" id="bioId" cols="30" rows="10" placeholder="im a read only" maxlength="100" readonly></textarea>
+
+         <label for="countrySelectBox">Country</label>
+         <select name="" id="">
+            <option value="India">India</option>
+            <option value="Usa">USA</option>
+            <option value="russia">Russia</option>
+
+         </select>
+
+         <select name="cars" id="">
+            <optgroup label="German Cars">
+                <option value="Audi">Audi</option>
+                  <option value="bmw">BMW</option>
+            </optgroup>
+            <optgroup label="Japanese Cars">
+                <option value="toyota">Toyota</option>
+                  <option value="honda">Honda</option>
+            </optgroup>
+         </select>
+
+    </form>
+</body>
+</html>
